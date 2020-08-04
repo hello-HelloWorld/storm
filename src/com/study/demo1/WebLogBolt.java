@@ -22,7 +22,7 @@ public class WebLogBolt implements IRichBolt {
     private int num = 0;
     private String str = null;
 
-    // @SuppressWarnings("rawtypes")
+    @SuppressWarnings("rawtypes")
     @Override
     public void prepare(Map stormConf, TopologyContext context, OutputCollector collector) {
         this.collector = collector;

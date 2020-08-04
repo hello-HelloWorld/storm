@@ -20,7 +20,7 @@ public class GenerateData {
         File logFile = new File("e:/website.log");
         Random random = new Random();
 
-        //1.网站名臣
+        //1.网站名称
         String[] hosts = {"www.baidu.com"};
         //2.会话id
         String[] session_id = {"ABYH6Y4V4SCVXTG6DPB4VH9U123", "XXYH6YCGFJYERTT834R52FDXV9U34", "BBYH61456FGHHJ7JL89RG5VV9UYU7", "CYYH6Y2345GHI899OFG4V9U567", "VVVYH6Y4V4SFXZ56JIPDPB4V678"};
